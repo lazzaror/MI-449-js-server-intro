@@ -33,7 +33,7 @@ var server = http.createServer(function (request, response) {
   else {
     response.end('<h1>Page not found!</h1>' +
     '<img src="https://image.shutterstock.com/image-illustration/404-funny-cats-design-260nw-757415008.jpg">' +
-    '<br>Sorry, I can\t seem to find ' + request.url +
+    '<br>Sorry, I can\'t seem to find ' + request.url +
     ' like you asked. Try something more reasonable.' +
     '<br><br><a href="/" style="text-decoration:none; color:white; background-color:black; border-radius:10%; padding:0.5%; margin-top:12%;">Go Home</a>')
   }
